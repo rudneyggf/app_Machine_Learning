@@ -1,16 +1,14 @@
-[project]
+[tool.poetry]
 name = "analise-mental-health"
 version = "0.1.0"
 description = "Projeto 3 Machine Learning"
-package-mode = false
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = [
-    "joblib>=1.5.3",
-    "missingno>=0.5.2",
-    "pandas>=3.0.3",
-    "scikit-learn>=1.9.0",
-    "streamlit>=1.58.0",
-    "xgboost>=3.3.0",
-]
+package-mode = false 
 
+[tool.poetry.dependencies]
+python = ">=3.12"
+joblib = ">=1.5.3"
+missingno = ">=0.5.2"
+pandas = ">=3.0.3"
+scikit-learn = ">=1.9.0"
+streamlit = ">=1.58.0"
+xgboost = ">=3.3.0"
